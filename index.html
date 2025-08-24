@@ -1,107 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supernatural — Landing</title>
+    <meta name="description" content="Fan page da série Supernatural: sinopse, elenco e galeria." />
+    <link rel="icon" href="dist/images/favicon.png" />
+    <!-- Importa o CSS gerado pelo Gulp -->
+    <link rel="stylesheet" href="dist/css/styles.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="./imgs/logo 2.png" alt="Logo">
-            </div>
-            <ul class="menu">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Séries</a></li>
-                <li><a href="#">Filmes</a></li>
-                <li><a href="#">Crianças & Família</a></li>
-            </ul>
-            <div class="icons">
-                <a href="#"><img src="./imgs/lupa.png" alt="Buscar"></a>
-                <a href="#"><img src="./imgs/favorito.png" alt="Favoritos"></a>
-                <a href="#"><img src="./imgs/do-utilizador.png" alt="Perfil"></a>
-            </div>
+        <nav class="navbar" aria-label="Principal">
+        <div class="logo">
+            <img src="dist/images/logo.png" alt="Logo" />
+        </div>
+        <ul class="menu">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Crianças &amp; Família</a></li>
+        </ul>
+        <div class="icons">
+            <a href="#" aria-label="Buscar"><img src="dist/images/lupa.png" alt="" /></a>
+            <a href="#" aria-label="Favoritos"><img src="dist/images/favorito.png" alt="" /></a>
+            <a href="#" aria-label="Perfil"><img src="dist/images/do-utilizador.png" alt="" /></a>
+        </div>
         </nav>
     </header>
+
     <section class="hero">
         <div class="background-image">
-            <img src="./imgs/banner.png" alt="Supernatural">
+        <img src="dist/images/banner.png" alt="Banner de Supernatural" />
         </div>
         <div class="content">
-            <h1>Supernatural</h1>
-            <p class="emmy">PRIMETIME EMMYS® 1x nomeado em 2008</p>
-            <div class="season-selector">
-                <button>Temporada 1</button>
-            </div>
-            <p class="description">
-                Um tipo completamente novo de passeio emocionante leva os espectadores a uma viagem ao mundo sombrio do inexplicável em “Supernatural”. Ligados pela tragédia e pelo sangue...
-            </p>
-            <div class="info">
-                <span>IMDb 8.4</span>
-                <span>2005</span>
-                <span>22 episodios</span>
-                <span>TV-14</span>
-            </div>
-            <div class="tags">
-                <span>Aventura</span>
-                <span>Suspense</span>
-                <span>Drama</span>
-                <span>Fantasia</span>
-            </div>
-            <div class="actions">
-                <button>Adicionar a lista</button>
-                <button>Compartilhar</button>
-                <button>Mais Informações</button>
-            </div>
+        <h1>Supernatural</h1>
+        <p class="emmy">PRIMETIME EMMYS® 1x nomeado em 2008</p>
+        <div class="season-selector">
+            <button type="button">Temporada 1</button>
         </div>
-        <h2>Sobre a série</h2>
-        <div class="gallery">
-            <img src="./imgs/cena 1.png" alt="Cena 1">
-            <img src="./imgs/cena 2.png" alt="Cena 2">
-            <img src="./imgs/cena 3.png" alt="Cena 3">
+        <p class="description">
+            Um tipo completamente novo de passeio emocionante leva os espectadores a uma viagem ao mundo sombrio do inexplicável em “Supernatural”. Ligados pela tragédia e pelo sangue...
+        </p>
+        <div class="info">
+            <span>IMDb 8.4</span>
+            <span>2005</span>
+            <span>22 episódios</span>
+            <span>TV-14</span>
         </div>
-        <p>
+        <div class="tags">
+            <span>Aventura</span>
+            <span>Suspense</span>
+            <span>Drama</span>
+            <span>Fantasia</span>
+        </div>
+        <div class="actions">
+            <button type="button">Adicionar à lista</button>
+            <button type="button">Compartilhar</button>
+            <button type="button">Mais Informações</button>
+        </div>
+        </div>
+    </section>
+
+    <section aria-labelledby="sobre-a-serie">
+        <h2 id="sobre-a-serie">Sobre a série</h2>
+        <div class="content-wrapper">
+        <p class="description">
             Os irmãos Winchester, Sam e Dean, são unidos por laços de sangue e por uma missão: proteger o mundo das forças do mal...
         </p>
-    </section>
-    
-    <section class="cast">
-        <h2>Atores</h2>
-        <div class="cast-grid">
-            <div class="actor">
-                <img src="./imgs/jack.webp" alt="Alexander Calvert">
-                <p>Alexander Calvert</p>
-                <span>Jack</span>
-            </div>
-            <div class="actor">
-                <img src="./imgs/jared.webp" alt="Jared Padalecki">
-                <p>Jared Padalecki</p>
-                <span>Sam</span>
-            </div>
-            <div class="actor">
-                <img src="./imgs/jensen.jpg" alt="Jensen Ackles">
-                <p>Jensen Ackles</p>
-                <span>Dean</span>
-            </div>
-            <div class="actor">
-                <img src="./imgs/crowley.jpg" alt="Mark Sheppard">
-                <p>Mark Sheppard</p>
-                <span>Crowley</span>
-            </div>
-            <div class="actor">
-                <img src="./imgs/bob.jpg" alt="Jim Beaver">
-                <p>Jim Beaver</p>
-                <span>Bobby</span>
-            </div>
-            <div class="actor">
-                <img src="./imgs/misha.webp" alt="Misha Collins">
-                <p>Misha Collins</p>
-                <span>Castiel</span>
-            </div>
+        <div class="gallery">
+            <img src="dist/images/cena 1.png" alt="Cena 1" />
+            <img src="dist/images/cena 2.png" alt="Cena 2" />
+            <img src="dist/images/cena 3.png" alt="Cena 3" />
+        </div>
         </div>
     </section>
-    
-</body>
+
+    <section class="cast" aria-labelledby="atores">
+        <h2 id="atores">Atores</h2>
+        <div class="cast-grid">
+        <div class="actor">
+            <img src="dist/images/jack.webp" alt="Alexander Calvert" />
+            <p>Alexander Calvert</p>
+            <span>Jack</span>
+        </div>
+        <div class="actor">
+            <img src="dist/images/jared.webp" alt="Jared Padalecki" />
+            <p>Jared Padalecki</p>
+            <span>Sam</span>
+        </div>
+        <div class="actor">
+            <img src="dist/images/jensen.jpg" alt="Jensen Ackles" />
+            <p>Jensen Ackles</p>
+            <span>Dean</span>
+        </div>
+        <div class="actor">
+            <img src="dist/images/crowley.jpg" alt="Mark Sheppard" />
+            <p>Mark Sheppard</p>
+            <span>Crowley</span>
+        </div>
+        <div class="actor">
+            <img src="dist/images/bob.jpg" alt="Jim Beaver" />
+            <p>Jim Beaver</p>
+            <span>Bobby</span>
+        </div>
+        <div class="actor">
+            <img src="dist/images/misha.webp" alt="Misha Collins" />
+            <p>Misha Collins</p>
+            <span>Castiel</span>
+        </div>
+        </div>
+    </section>
+
+    <!-- Script gerado pelo Gulp -->
+    <script src="dist/js/app.js"></script>
+    </body>
 </html>
